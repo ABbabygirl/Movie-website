@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-nav{
+    display: flex;
+   
+}
+

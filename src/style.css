@@ -1,0 +1,62 @@
+/* div{
+    padding: 2rem;
+} */
+
+.banner{
+    min-height: 80vh;   
+    background-image: url(./../public/landscape\ 2.avif);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.banner h4{
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 0 0 3px #333;
+}
+
+.banner button{
+    border: none;
+    padding: 0.6rem;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: #000; 
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* .banner:hover{
+    background-color: grey; 
+    color: red;
+    cursor: pointer;
+} */
+
+.banner p{
+    font-size: 1.2rem;
+    width: 23vw;
+    color: #fff;
+}
+
+.movie-poster img{
+    height: 15rem;
+    width: 15rem;
+    object-fit: fill;
+}
+
+.movie-poster{
+    overflow: auto;
+    gap: 4px;
+}
+.movie-poster img:hover{
+    transform: scale(1.20);
+    transition: all 5s ease-in-out;
+}
+
+::-webkit-scrollbar{
+    overflow: hidden;
+}
